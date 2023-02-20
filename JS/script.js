@@ -1,9 +1,9 @@
 //* Game constraints and variables
 let inputDir = { x: 0, y: 0 };
-const foodSound = new Audio(`../Audio/food.mp3`)
-const gameOverSound = new Audio(`../Audio/gameover.mp3`)
-const moveSound = new Audio(`../Audio/move.mp3`)
-const backgroundSound = new Audio(`../Audio/music.mp3`)
+const foodSound = new Audio('Audio/food.mp3');
+const gameOverSound = new Audio('Audio/gameover.mp3');
+const moveSound = new Audio('Audio/move.mp3');
+const backgroundSound = new Audio('Audio/music.mp3');
 let speed = 7;
 let lastPaintTime = 0;
 let snakeArr = [
